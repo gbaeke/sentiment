@@ -1,5 +1,5 @@
 # Command line tool to perform sentiment analysis with Cognitive Services container
-Usage: ta --language en|nl --text "text to analyse" --url "http://localhost:5000"
+Usage: toolname --language en|nl --text "text to analyse" --url "http://localhost:5000"
 
 - language: defaults to nl
 - url: defaults to http://localhost:5000
