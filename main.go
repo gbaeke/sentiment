@@ -31,6 +31,7 @@ type sentiment struct {
 
 type sentiments struct {
 	Documents []sentiment `json:"documents"`
+	Errors    []string    `json:"errors"`
 }
 
 func main() {
